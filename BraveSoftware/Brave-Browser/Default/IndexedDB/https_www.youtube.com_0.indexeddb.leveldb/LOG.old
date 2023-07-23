@@ -1,0 +1,7 @@
+2023/07/23-12:26:08.920 470 Reusing MANIFEST /home/atmegabuzz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/23-12:26:08.920 470 Recovering log #36
+2023/07/23-12:26:08.929 470 Reusing old log /home/atmegabuzz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000036.log 
+2023/07/23-12:26:09.028 46f Compacting 1@1 + 1@2 files
+2023/07/23-12:26:09.038 46f Generated table #39@1: 381 keys, 42825 bytes
+2023/07/23-12:26:09.038 46f Compacted 1@1 + 1@2 files => 42825 bytes
+2023/07/23-12:26:09.043 46f compacted to: files[ 0 0 1 0 0 0 0 ]

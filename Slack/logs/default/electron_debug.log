@@ -1,0 +1,22 @@
+[5264:0723/081522.090741:WARNING:bluez_dbus_manager.cc(247)] Floss manager not present, cannot set Floss enable/disable.
+[5264:0723/081522.890526:WARNING:bus.cc(644)] Bus::SendWithReplyAndBlock took 1001ms to process message: type=method_call, path=/org/freedesktop/DBus, interface=org.freedesktop.DBus, member=StartServiceByName
+[5264:0723/081522.890609:ERROR:object_proxy.cc(590)] Failed to call method: org.freedesktop.DBus.StartServiceByName: object_path= /org/freedesktop/DBus: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+[5264:0723/081522.900882:ERROR:browser_main_loop.cc(274)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5264:0723/081651.777396:ERROR:browser_main_loop.cc(274)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5264:0723/081651.777693:ERROR:browser_main_loop.cc(274)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5264:0723/081655.208010:ERROR:browser_main_loop.cc(274)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5264:0723/081655.208257:ERROR:browser_main_loop.cc(274)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5264:0723/081656.340396:ERROR:browser_main_loop.cc(274)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5264:0723/081656.340858:ERROR:browser_main_loop.cc(274)] Gtk: gtk_widget_add_accelerator: assertion 'GTK_IS_ACCEL_GROUP (accel_group)' failed
+[5264:0723/081659.094906:ERROR:cert_verify_proc_builtin.cc(702)] CertVerifyProcBuiltin for nearest-media-region.l.chime.aws failed:
+----- Certificate i=0 (CN=*) -----
+ERROR: No matching issuer found
+
+
+[5306:0723/081659.102820:ERROR:ssl_client_socket_impl.cc(978)] handshake failed; returned -1, SSL error code 1, net_error -202
+[5306:0723/081659.309697:ERROR:ssl_client_socket_impl.cc(978)] handshake failed; returned -1, SSL error code 1, net_error -202
+[5306:0723/081659.560052:ERROR:ssl_client_socket_impl.cc(978)] handshake failed; returned -1, SSL error code 1, net_error -202
+[5306:0723/081704.790476:ERROR:ssl_client_socket_impl.cc(978)] handshake failed; returned -1, SSL error code 1, net_error -202
+[5306:0723/081705.254274:ERROR:ssl_client_socket_impl.cc(978)] handshake failed; returned -1, SSL error code 1, net_error -202
+[5306:0723/081716.740373:ERROR:ssl_client_socket_impl.cc(978)] handshake failed; returned -1, SSL error code 1, net_error -202
+[5306:0723/081717.202087:ERROR:ssl_client_socket_impl.cc(978)] handshake failed; returned -1, SSL error code 1, net_error -202

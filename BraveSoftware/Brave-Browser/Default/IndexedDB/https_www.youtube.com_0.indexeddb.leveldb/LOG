@@ -1,0 +1,8 @@
+2023/07/23-13:02:05.000 430 Reusing MANIFEST /home/atmegabuzz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/23-13:02:05.001 430 Recovering log #36
+2023/07/23-13:02:05.025 430 Reusing old log /home/atmegabuzz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000036.log 
+2023/07/23-13:02:05.025 430 Delete type=2 #34
+2023/07/23-13:02:05.025 430 Delete type=2 #37
+2023/07/23-13:02:12.811 430 Level-0 table #42: started
+2023/07/23-13:02:12.827 430 Level-0 table #42: 1383452 bytes OK
+2023/07/23-13:02:12.830 430 Delete type=0 #36

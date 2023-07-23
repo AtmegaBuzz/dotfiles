@@ -1,0 +1,15 @@
+2023/07/23-13:03:16.496 3 Reusing MANIFEST /home/atmegabuzz/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2023/07/23-13:03:16.498 3 Recovering log #16
+2023/07/23-13:03:16.499 3 Reusing old log /home/atmegabuzz/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000016.log 
+2023/07/23-13:26:43.431 4 Level-0 table #20: started
+2023/07/23-13:26:43.441 4 Level-0 table #20: 21105 bytes OK
+2023/07/23-13:26:43.444 4 Delete type=0 #16
+2023/07/23-13:26:43.444 4 Compacting 4@0 + 1@1 files
+2023/07/23-13:26:43.447 4 Generated table #21@0: 630 keys, 20751 bytes
+2023/07/23-13:26:43.447 4 Compacted 4@0 + 1@1 files => 20751 bytes
+2023/07/23-13:26:43.449 4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/07/23-13:26:43.449 4 Delete type=2 #8
+2023/07/23-13:26:43.449 4 Delete type=2 #11
+2023/07/23-13:26:43.449 4 Delete type=2 #14
+2023/07/23-13:26:43.449 4 Delete type=2 #17
+2023/07/23-13:26:43.449 4 Delete type=2 #20

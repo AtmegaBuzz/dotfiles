@@ -1,0 +1,6 @@
+2023/07/23-13:01:56.282 3 Reusing MANIFEST /home/atmegabuzz/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2023/07/23-13:01:56.291 3 Recovering log #63
+2023/07/23-13:01:56.293 3 Reusing old log /home/atmegabuzz/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000063.log 
+2023/07/23-13:02:46.346 5 Level-0 table #68: started
+2023/07/23-13:02:46.352 5 Level-0 table #68: 60099 bytes OK
+2023/07/23-13:02:46.357 5 Delete type=0 #63

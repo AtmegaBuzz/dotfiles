@@ -1,0 +1,6 @@
+2023/07/23-07:52:27.838 1861 Creating DB /home/atmegabuzz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_linuxhint.com_0.indexeddb.leveldb since it was missing.
+2023/07/23-07:52:27.851 1861 Reusing MANIFEST /home/atmegabuzz/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_linuxhint.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/23-07:52:31.865 1862 Level-0 table #5: started
+2023/07/23-07:52:31.867 1862 Level-0 table #5: 2860 bytes OK
+2023/07/23-07:52:31.869 1862 Delete type=0 #3
+2023/07/23-07:52:31.869 1862 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,1160 @@
+[07/23/23, 08:15:21:667] info: 
+╔════════════════════════════════════════════════════╗
+║      Slack 4.33.73, linux 6.1.39-1-lts on x64      ║
+╚════════════════════════════════════════════════════╝ 
+[07/23/23, 08:15:21:668] info: Configured logger via 
+{
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 1
+}
+[07/23/23, 08:15:21:696] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "timeZone": "Asia/Calcutta",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.33.73",
+  "PACKAGE_MANIFEST.commit": "e0b59d9",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[07/23/23, 08:15:21:769] info: Starting Sentry 
+[07/23/23, 08:15:21:770] info: persistUuid:: Generated uuid 
+{
+  "uuid": "807eae2c-aba0-4be9-9c40-39e8bb1de156"
+}
+[07/23/23, 08:15:21:771] info: persistUuid:: Uuid persisted successfully 
+[07/23/23, 08:15:21:771] info: getSentryDSN: Setting sentry URL to slack.com 
+[07/23/23, 08:15:21:798] info: Could not load previous electron version 
+[07/23/23, 08:15:21:962] info: Breadcrumb: electron: app.will-finish-launching 
+[07/23/23, 08:15:21:971] info: Breadcrumb: electron: app.ready 
+[07/23/23, 08:15:22:008] info: Breadcrumb: electron: app.session-created 
+[07/23/23, 08:15:22:029] info: Store: persist/PERSIST 
+[07/23/23, 08:15:22:034] info: Store: UPDATE_SETTINGS 
+{
+  "locale": "en-US"
+}
+[07/23/23, 08:15:22:038] info: Migrating from redux-persist@v4 
+[07/23/23, 08:15:22:038] info: Finished migrating state 
+{
+  "keys": [
+    "_persist"
+  ],
+  "version": 1
+}
+[07/23/23, 08:15:22:039] info: Store: persist/REHYDRATE 
+{
+  "_persist": "Persistence version: 1"
+}
+[07/23/23, 08:15:22:040] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 0,
+  "interval": 16
+}
+[07/23/23, 08:15:22:041] info: Store: INITIALIZE 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "silent": true,
+  "tsaToken": "[REDACTED]",
+  "bootFragments": []
+}
+[07/23/23, 08:15:22:053] info: Store: SET_SESSION_MODE 
+[07/23/23, 08:15:22:055] info: Feature Check: requesting features from https://app.slack.com/api/ 
+[07/23/23, 08:15:22:066] error: Failed to load calls-desktop-interop.WindowBorderPanel 
+{
+  "error": {
+    "stack": "Error: Module did not self-register: '/usr/lib/slack/resources/app.asar.unpacked/node_modules/@tinyspeck/calls-desktop-interop/build/Release/CallsDesktopInterop.node'.\n    at process.func [as dlopen] (node:electron/js2c/asar_bundle:2:1822)\n    at Module._extensions..node (node:internal/modules/cjs/loader:1354:18)\n    at Object.func [as .node] (node:electron/js2c/asar_bundle:2:2049)\n    at Module.load (node:internal/modules/cjs/loader:1124:32)\n    at Module._load (node:internal/modules/cjs/loader:965:12)\n    at f._load (node:electron/js2c/asar_bundle:2:13330)\n    at Module.require (node:internal/modules/cjs/loader:1148:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at bindings (/usr/lib/slack/resources/app.asar/node_modules/bindings/bindings.js:112:48)\n    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@tinyspeck/calls-desktop-interop/lib/index.js:1:34)",
+    "message": "Module did not self-register: '/usr/lib/slack/resources/app.asar.unpacked/node_modules/@tinyspeck/calls-desktop-interop/build/Release/CallsDesktopInterop.node'.",
+    "code": "ERR_DLOPEN_FAILED"
+  },
+  "stackFrameString": "[{\"columnNumber\":1822,\"lineNumber\":2,\"fileName\":\"node:electron/js2c/asar_bundle\",\"functionName\":\"process.func [as dlopen]\",\"source\":\"    at process.func [as dlopen] (node:electron/js2c/asar_bundle:2:1822)\"},{\"columnNumber\":18,\"lineNumber\":1354,\"fileName\":\"node:internal/modules/cjs/loader\",\"functionName\":\"Module._extensions..node\",\"source\":\"    at Module._extensions..node (node:internal/modules/cjs/loader:1354:18)\"},{\"columnNumber\":2049,\"lineNumber\":2,\"fileName\":\"node:electron/js2c/asar_bundle\",\"functionName\":\"Object.func [as .node]\",\"source\":\"    at Object.func [as .node] (node:electron/js2c/asar_bundle:2:2049)\"},{\"columnNumber\":32,\"lineNumber\":1124,\"fileName\":\"node:internal/modules/cjs/loader\",\"functionName\":\"Module.load\",\"source\":\"    at Module.load (node:internal/modules/cjs/loader:1124:32)\"},{\"columnNumber\":12,\"lineNumber\":965,\"fileName\":\"node:internal/modules/cjs/loader\",\"functionName\":\"Module._load\",\"source\":\"    at Module._load (node:internal/modules/cjs/loader:965:12)\"},{\"columnNumber\":13330,\"lineNumber\":2,\"fileName\":\"node:electron/js2c/asar_bundle\",\"functionName\":\"f._load\",\"source\":\"    at f._load (node:electron/js2c/asar_bundle:2:13330)\"},{\"columnNumber\":19,\"lineNumber\":1148,\"fileName\":\"node:internal/modules/cjs/loader\",\"functionName\":\"Module.require\",\"source\":\"    at Module.require (node:internal/modules/cjs/loader:1148:19)\"},{\"columnNumber\":18,\"lineNumber\":110,\"fileName\":\"node:internal/modules/cjs/helpers\",\"functionName\":\"require\",\"source\":\"    at require (node:internal/modules/cjs/helpers:110:18)\"},{\"columnNumber\":48,\"lineNumber\":112,\"fileName\":\"/usr/lib/slack/resources/app.asar/node_modules/bindings/bindings.js\",\"functionName\":\"bindings\",\"source\":\"    at bindings (/usr/lib/slack/resources/app.asar/node_modules/bindings/bindings.js:112:48)\"},{\"columnNumber\":34,\"lineNumber\":1,\"fileName\":\"/usr/lib/slack/resources/app.asar/node_modules/@tinyspeck/calls-desktop-interop/lib/index.js\",\"functionName\":\"Object.<anonymous>\",\"source\":\"    at Object.<anonymous> (/usr/lib/slack/resources/app.asar/node_modules/@tinyspeck/calls-desktop-interop/lib/index.js:1:34)\"}]"
+}
+[07/23/23, 08:15:22:089] warn: Failed to install protocol handler for slack:// links 
+[07/23/23, 08:15:22:095] info: getLinuxDistro: osInfo 
+{
+  "stdoutValue": "1.4 ArcoLinux \"ArcoLinux\" rolling n/a\n",
+  "osInfo": [
+    ""
+  ]
+}
+[07/23/23, 08:15:22:096] warn: Couldn't get Linux distro info from lsb_release, trying fallback to get Linux distro info 
+{
+  "error": {
+    "stack": "Error: Missing OS or release info\n    at aD (/usr/lib/slack/resources/app.asar/dist/main.bundle.js:205:204)",
+    "message": "Missing OS or release info"
+  },
+  "stackFrameString": "[{\"columnNumber\":204,\"lineNumber\":205,\"fileName\":\"/usr/lib/slack/resources/app.asar/dist/main.bundle.js\",\"functionName\":\"aD\",\"source\":\"    at aD (/usr/lib/slack/resources/app.asar/dist/main.bundle.js:205:204)\"}]"
+}
+[07/23/23, 08:15:22:105] info: Breadcrumb: electron: app.gpu-info-update 
+[07/23/23, 08:15:22:118] info: getLinuxDistro: getos 
+{
+  "res": {
+    "os": "linux",
+    "dist": "Ubuntu"
+  }
+}
+[07/23/23, 08:15:22:119] info: Store: READY 
+{
+  "resourcePath": "/usr/lib/slack/resources/app.asar",
+  "silent": true,
+  "tsaToken": "[REDACTED]",
+  "bootFragments": [],
+  "appVersion": "4.33.73",
+  "is64Bit": true,
+  "isGpuCompositionAvailable": true,
+  "isTitleBarHidden": false,
+  "platform": "linux",
+  "platformVersion": {
+    "major": 6,
+    "minor": 1,
+    "build": 39
+  },
+  "developerMenuOverride": false,
+  "uuid": "807eae2c-aba0-4be9-9c40-39e8bb1de156",
+  "applicationProcessSessionId": "ODA3ZWFlMmMtYWJhMC00YmU5LTljNDAtMzllOGJiMWRlMTU2XzE2OTAwODAzMjIwNDE=",
+  "distribution": "DDL",
+  "clientEnvironment": 1000,
+  "linux": {
+    "os": "Ubuntu",
+    "name": "Ubuntu ",
+    "release": "",
+    "codename": "",
+    "desktopEnvironment": "hyprland"
+  }
+}
+[07/23/23, 08:15:22:120] info: initializeApplicationEpic: trying to set ntlm credential domain for session 
+{
+  "sessionId": "PROD_DEFAULT_SESSION"
+}
+[07/23/23, 08:15:22:120] info: initializeApplicationEpic: Setting spellcheck dictionary URL 
+{
+  "dictionaryUrl": "https://spellcheck.slack-edge.com/dictionaries_v2/"
+}
+[07/23/23, 08:15:22:120] info: initializeApplicationEpic: Welcome to Slack 4.33.73 x64 
+[07/23/23, 08:15:22:120] info: Breadcrumb: electron: powerMonitor.newListener 
+[07/23/23, 08:15:22:123] info: AutoLoginEpic: Checking for autologin. 
+[07/23/23, 08:15:22:123] info: getIsUpdateSupported: Updates are not supported 
+{
+  "version": "4.33.73",
+  "reasons": [
+    "using Linux"
+  ],
+  "distribution": "DDL",
+  "executable": "/usr/lib/slack"
+}
+[07/23/23, 08:15:22:131] info: persistUuid:: Generated uuid 
+{
+  "uuid": "0d17d61f-074b-4f7b-b3e5-380621e9c9ea"
+}
+[07/23/23, 08:15:22:131] info: persistUuid:: Uuid persisted successfully 
+[07/23/23, 08:15:22:141] info: Store: SET_ACCESSIBILITY_SUPPORT_ENABLED 
+[07/23/23, 08:15:22:141] info: Store: CREATE_WINDOW 
+{
+  "type": "main"
+}
+[07/23/23, 08:15:22:142] info: Store: UPDATE_SETTINGS 
+{
+  "isSignedIntoSlackOrg": false
+}
+[07/23/23, 08:15:22:144] info: Breadcrumb: electron: powerMonitor.newListener 
+[07/23/23, 08:15:22:146] info: initialSettingsPayload: trying to invalidate settings 
+{
+  "payload": {
+    "launchOnStartup": false,
+    "PrefSSBFileDownloadPath": "/home/[REDACTED]/Downloads",
+    "PrefSSBFileDownloadPathDisplayName": "Downloads",
+    "hasRunApp": true
+  }
+}
+[07/23/23, 08:15:22:147] info: Store: UPDATE_SETTINGS 
+{
+  "launchOnStartup": false,
+  "PrefSSBFileDownloadPath": "/home/[REDACTED]/Downloads",
+  "PrefSSBFileDownloadPathDisplayName": "Downloads",
+  "hasRunApp": true
+}
+[07/23/23, 08:15:22:149] info: Store: SET_UPDATE_SUPPORTED 
+[07/23/23, 08:15:22:154] info: Store: TOKEN_FILE_PROCESSED 
+[07/23/23, 08:15:22:155] info: AutoLoginEpic: Processing token file for autologin. 
+[07/23/23, 08:15:22:155] info: AutoLoginEpic: Completed autologin processing — successfully logged in 0 workspaces. 
+[07/23/23, 08:15:22:155] info: AutoLoginEpic: Setting default sign-in team to null 
+[07/23/23, 08:15:22:155] info: Store: AUTOLOGIN_TEAMS_COMPLETE 
+[07/23/23, 08:15:22:156] info: Store: UPDATE_SETTINGS 
+{
+  "defaultSigninTeam": null
+}
+[07/23/23, 08:15:22:183] info: Breadcrumb: electron: app.web-contents-created 
+[07/23/23, 08:15:22:183] info: Breadcrumb: electron: app.browser-window-created 
+[07/23/23, 08:15:22:184] info: MainWindowEpics: Setting main window ID 
+{
+  "id": 1
+}
+[07/23/23, 08:15:22:186] info: Store: WINDOW_CREATED 
+{
+  "type": "main",
+  "id": 1,
+  "frame": {
+    "isHtmlFullScreen": false,
+    "isFullScreen": false,
+    "isMinimized": false,
+    "isMaximized": false,
+    "isVisible": false,
+    "isFocused": false,
+    "bounds": {
+      "x": 560,
+      "y": 240,
+      "width": 800,
+      "height": 600
+    },
+    "hasVibrancy": false
+  }
+}
+[07/23/23, 08:15:22:194] info: Breadcrumb: electron: powerMonitor.newListener 
+[07/23/23, 08:15:22:195] info: Breadcrumb: electron: powerMonitor.newListener 
+[07/23/23, 08:15:22:198] info: Watching for keyboard layout changes 
+[07/23/23, 08:15:22:202] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 1,
+  "interval": 152
+}
+[07/23/23, 08:15:22:202] info: Store: UPDATE_SETTINGS 
+{
+  "keyboardLayout": "us"
+}
+[07/23/23, 08:15:22:204] info: getSonicBaseURL: Booting into devEnv 
+{
+  "url": "https://app.slack.com"
+}
+[07/23/23, 08:15:22:217] info: registerLifeCycleEvents: Registering webContents:1 
+[07/23/23, 08:15:22:218] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "unloaded"
+}
+[07/23/23, 08:15:22:242] info: System configuration information 
+{
+  "info": {
+    "total_memory_in_gb": 7,
+    "gpuFeatures": {
+      "2d_canvas": "enabled",
+      "canvas_oop_rasterization": "disabled_off",
+      "direct_rendering_display_compositor": "disabled_off_ok",
+      "gpu_compositing": "enabled",
+      "multiple_raster_threads": "enabled_on",
+      "opengl": "enabled_on",
+      "rasterization": "enabled",
+      "raw_draw": "disabled_off_ok",
+      "video_decode": "enabled",
+      "video_encode": "disabled_software",
+      "vulkan": "disabled_off",
+      "webgl": "enabled",
+      "webgl2": "enabled",
+      "webgpu": "disabled_off"
+    },
+    "cpu_model": "AMD Ryzen 5 5600H with Radeon Graphics",
+    "cpu_logical_core": 12,
+    "cpu_clock_speed": 4067,
+    "gpuDevice": [
+      {
+        "active": true,
+        "cudaComputeCapabilityMajor": 0,
+        "deviceId": 5688,
+        "gpuPreference": 0,
+        "vendorId": 4098
+      },
+      {
+        "active": false,
+        "cudaComputeCapabilityMajor": 0,
+        "deviceId": 8089,
+        "gpuPreference": 0,
+        "vendorId": 4318
+      }
+    ],
+    "machine_model_name": "unknown",
+    "machine_model_version": "unknown",
+    "crash_db_size_kb": 1
+  }
+}
+[07/23/23, 08:15:22:548] info: Finished download of spellcheck dictionary 
+{
+  "code": "en-GB"
+}
+[07/23/23, 08:15:22:549] info: Spellcheck dictionary initialized 
+{
+  "code": "en-GB"
+}
+[07/23/23, 08:15:22:914] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "https://app.slack.com/api//desktop.features",
+  "method": "GET",
+  "status_code": 200
+}
+[07/23/23, 08:15:22:918] info: Feature Check: received experiments 
+{
+  "ok": true,
+  "experiments": []
+}
+[07/23/23, 08:15:23:222] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 448,
+      "y": 156,
+      "width": 1024,
+      "height": 768
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:15:23:223] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 448,
+      "y": 156,
+      "width": 1024,
+      "height": 768
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:15:23:777] info: Store: UPDATE_SETTINGS 
+{
+  "userTheme": "light"
+}
+[07/23/23, 08:15:23:780] info: Store: UPDATE_SETTINGS 
+{
+  "systemThemeSyncEnabled": false
+}
+[07/23/23, 08:15:23:878] info: Breadcrumb: electron: renderer.dom-ready 
+{
+  "id": 1,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient#/"
+}
+[07/23/23, 08:15:23:878] info: registerLifeCycleEvents: webContents:1 from 'unloaded' to 'loaded' took 1661 ms 
+[07/23/23, 08:15:23:879] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "loaded"
+}
+[07/23/23, 08:15:23:880] info: initializeMainWindowEpic: Showing main window 
+{
+  "maximized": false,
+  "shouldHide": false,
+  "fullScreen": false
+}
+[07/23/23, 08:15:23:881] info: Breadcrumb: electron: window.show 
+{
+  "id": 1,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient#/"
+}
+[07/23/23, 08:15:23:882] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 2,
+  "interval": 1688
+}
+[07/23/23, 08:15:23:882] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isVisible": true
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:15:23:882] info: Store: MAIN_WINDOW_SHOWN 
+[07/23/23, 08:15:23:884] info: Store: UPDATE_SETTINGS 
+{
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 448,
+      "y": 156,
+      "width": 1024,
+      "height": 768
+    }
+  }
+}
+[07/23/23, 08:15:23:885] info: Store: CLEAR_NOTIFICATIONS 
+[07/23/23, 08:15:23:888] info: waitAuthCookieChange: waiting for auth change for session 
+{
+  "sessionId": "PROD_DEFAULT_SESSION"
+}
+[07/23/23, 08:15:23:891] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient#/"
+}
+[07/23/23, 08:15:23:891] info: Breadcrumb: electron: app.browser-window-focus 
+[07/23/23, 08:15:23:891] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:15:23:907] info: Breadcrumb: electron: window.ready-to-show 
+{
+  "id": 1,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient#/"
+}
+[07/23/23, 08:15:24:037] info: registerLifeCycleEvents: webContents:1 is type 'app' 
+[07/23/23, 08:15:24:037] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "type": "app",
+  "history": "[REDACTED]"
+}
+[07/23/23, 08:15:24:041] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isVisible": true,
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:15:24:579] info: Store: SET_NETWORK_STATUS online
+[07/23/23, 08:15:24:892] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 964,
+      "y": 12,
+      "width": 944,
+      "height": 1031
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:15:24:895] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 964,
+      "y": 12,
+      "width": 944,
+      "height": 1031
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:15:24:960] info: Store: UPDATE_SETTINGS 
+{
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 964,
+      "y": 12,
+      "width": 944,
+      "height": 1031
+    }
+  }
+}
+[07/23/23, 08:15:25:308] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient#/"
+}
+[07/23/23, 08:15:25:309] info: Breadcrumb: electron: app.browser-window-blur 
+[07/23/23, 08:15:25:309] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:15:27:029] info: Store: persist/FLUSH 
+[07/23/23, 08:15:34:580] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient#/"
+}
+[07/23/23, 08:15:34:580] info: Breadcrumb: electron: app.browser-window-focus 
+[07/23/23, 08:15:34:580] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:15:35:266] info: actionForExternalWindowURL: Opening external window 
+[07/23/23, 08:15:35:275] info: openExternal: Successfully opened external URL 
+{
+  "protocol": "https:",
+  "trigger": 0
+}
+[07/23/23, 08:15:38:872] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient#/"
+}
+[07/23/23, 08:15:38:873] info: Breadcrumb: electron: app.browser-window-blur 
+[07/23/23, 08:15:38:874] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:15:44:232] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient#/"
+}
+[07/23/23, 08:15:44:233] info: Breadcrumb: electron: app.browser-window-focus 
+[07/23/23, 08:15:44:233] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:15:47:389] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient#/"
+}
+[07/23/23, 08:15:47:389] info: Breadcrumb: electron: app.browser-window-blur 
+[07/23/23, 08:15:47:390] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:16:01:664] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient#/"
+}
+[07/23/23, 08:16:01:665] info: Breadcrumb: electron: app.browser-window-focus 
+[07/23/23, 08:16:01:666] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:16:03:075] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient#/"
+}
+[07/23/23, 08:16:03:075] info: Breadcrumb: electron: app.browser-window-blur 
+[07/23/23, 08:16:03:076] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:16:14:062] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient#/"
+}
+[07/23/23, 08:16:14:063] info: Breadcrumb: electron: app.browser-window-focus 
+[07/23/23, 08:16:14:063] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:16:14:079] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient#/"
+}
+[07/23/23, 08:16:14:080] info: Breadcrumb: electron: app.browser-window-blur 
+[07/23/23, 08:16:14:080] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:16:14:082] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient#/"
+}
+[07/23/23, 08:16:14:083] info: Breadcrumb: electron: app.browser-window-focus 
+[07/23/23, 08:16:14:083] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:16:15:063] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 12,
+      "y": 12,
+      "width": 1896,
+      "height": 1031
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:16:15:079] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "bounds": {
+      "x": 12,
+      "y": 12,
+      "width": 1896,
+      "height": 1031
+    },
+    "isMaximized": false
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:16:15:148] info: Store: UPDATE_SETTINGS 
+{
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 12,
+      "y": 12,
+      "width": 1896,
+      "height": 1031
+    }
+  }
+}
+[07/23/23, 08:16:15:507] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient#/"
+}
+[07/23/23, 08:16:15:508] info: Breadcrumb: electron: app.browser-window-blur 
+[07/23/23, 08:16:15:509] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:16:17:130] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient#/"
+}
+[07/23/23, 08:16:17:132] info: Breadcrumb: electron: app.browser-window-focus 
+[07/23/23, 08:16:17:132] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:16:17:851] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient#/"
+}
+[07/23/23, 08:16:17:851] info: Breadcrumb: electron: app.browser-window-blur 
+[07/23/23, 08:16:17:851] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:16:22:123] info: Store: UPDATE_SETTINGS 
+{
+  "lastClogForProxyInfo": 1690080382122
+}
+[07/23/23, 08:16:32:336] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "https://app.slack.com/clog/track/",
+  "method": "POST",
+  "status_code": 200
+}
+[07/23/23, 08:16:32:732] info: Breadcrumb: electron.net: undefined 
+{
+  "url": "https://app.slack.com/clog/track/",
+  "method": "POST",
+  "status_code": 200
+}
+[07/23/23, 08:16:41:149] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient#/"
+}
+[07/23/23, 08:16:41:149] info: Breadcrumb: electron: app.browser-window-focus 
+[07/23/23, 08:16:41:150] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:16:43:868] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient#/"
+}
+[07/23/23, 08:16:43:869] info: Breadcrumb: electron: app.browser-window-blur 
+[07/23/23, 08:16:43:869] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:16:45:919] info: Breadcrumb: electron: app.second-instance 
+[07/23/23, 08:16:45:920] info: secondInstanceEpic: Received deep link protocol activation 
+[07/23/23, 08:16:45:920] info: Store: HANDLE_DEEP_LINK 
+{
+  "url": "slack://T04T40NHX/magic-login/5622422576515-53d2b8653c75c0edb4dcba669fec4974d451eb76c586e5b93707f1aeffd5639c/T022J3LJZC2/magic-login/5646238699776-5bfd244441b5ee53520962082d61616c30db0a281415a8c797db75606443d6e0/T08PSQ7BQ/magic-login/5624976830020-787671279e5c255eb1784b0aae20fb35aa466b47106d8f661c21c98006367101?id=1"
+}
+[07/23/23, 08:16:45:924] info: Breadcrumb: electron: app.web-contents-created 
+[07/23/23, 08:16:45:924] info: Breadcrumb: electron: app.browser-window-created 
+[07/23/23, 08:16:45:925] info: MagicLogin: Making magic login API request to https://app.slack.com/api/ 
+[07/23/23, 08:16:45:927] info: Store: MAGIC_LOGIN_IN_PROGRESS true
+[07/23/23, 08:16:45:929] info: registerLifeCycleEvents: Registering webContents:2 
+[07/23/23, 08:16:45:930] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 2,
+  "state": "unloaded"
+}
+[07/23/23, 08:16:46:644] info: authCookieBreadcrumb: change to auth cookie 
+{
+  "sessionId": "PROD_DEFAULT_SESSION",
+  "cause": "explicit",
+  "removed": false,
+  "cookie_name": "d",
+  "domain": ".slack.com",
+  "expiration": 1724640406.638969
+}
+[07/23/23, 08:16:46:669] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "history": "[REDACTED]"
+}
+[07/23/23, 08:16:46:681] info: Breadcrumb: electron: renderer.dom-ready 
+{
+  "id": 2,
+  "url": "https://app.slack.com/api/auth.loginMagicBulk?magic_tokens=z-app-T04T40NHX-5622422576515-53d2b8653c75c0edb4dcba669fec4974d451eb76c586e5b93707f1aeffd5639c,z-app-T022J3LJZC2-5646238699776-5bfd244441b5ee53520962082d61616c30db0a281415a8c797db75606443d6e0,z-app-T08PSQ7BQ-5624976830020-787671279e5c255eb1784b0aae20fb35aa466b47106d8f661c21c98006367101&ssb=1"
+}
+[07/23/23, 08:16:46:681] info: registerLifeCycleEvents: webContents:2 from 'unloaded' to 'loaded' took 751 ms 
+[07/23/23, 08:16:46:681] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 2,
+  "state": "loaded"
+}
+[07/23/23, 08:16:46:687] info: registerLifeCycleEvents: webContents:2 is type 'auth' 
+[07/23/23, 08:16:46:687] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 2,
+  "type": "auth",
+  "history": "[REDACTED]"
+}
+[07/23/23, 08:16:46:691] info: Breadcrumb: electron: window.ready-to-show 
+{
+  "id": 2,
+  "url": "https://app.slack.com/api/auth.loginMagicBulk?magic_tokens=z-app-T04T40NHX-5622422576515-53d2b8653c75c0edb4dcba669fec4974d451eb76c586e5b93707f1aeffd5639c,z-app-T022J3LJZC2-5646238699776-5bfd244441b5ee53520962082d61616c30db0a281415a8c797db75606443d6e0,z-app-T08PSQ7BQ-5624976830020-787671279e5c255eb1784b0aae20fb35aa466b47106d8f661c21c98006367101&ssb=1"
+}
+[07/23/23, 08:16:46:693] info: Breadcrumb: electron: window.close 
+{
+  "id": 2,
+  "url": "https://app.slack.com/api/auth.loginMagicBulk?magic_tokens=z-app-T04T40NHX-5622422576515-53d2b8653c75c0edb4dcba669fec4974d451eb76c586e5b93707f1aeffd5639c,z-app-T022J3LJZC2-5646238699776-5bfd244441b5ee53520962082d61616c30db0a281415a8c797db75606443d6e0,z-app-T08PSQ7BQ-5624976830020-787671279e5c255eb1784b0aae20fb35aa466b47106d8f661c21c98006367101&ssb=1"
+}
+[07/23/23, 08:16:46:693] info: registerLifeCycleEvents: webContents:2 from 'loaded' to 'page-closed' took 7 ms 
+[07/23/23, 08:16:46:693] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 2,
+  "state": "page-closed"
+}
+[07/23/23, 08:16:46:694] info: Store: MAGIC_LOGIN_IN_PROGRESS 
+[07/23/23, 08:16:46:698] info: Breadcrumb: electron: renderer.destroyed 
+{
+  "id": 2,
+  "url": "https://app.slack.com/api/auth.loginMagicBulk?magic_tokens=z-app-T04T40NHX-5622422576515-53d2b8653c75c0edb4dcba669fec4974d451eb76c586e5b93707f1aeffd5639c,z-app-T022J3LJZC2-5646238699776-5bfd244441b5ee53520962082d61616c30db0a281415a8c797db75606443d6e0,z-app-T08PSQ7BQ-5624976830020-787671279e5c255eb1784b0aae20fb35aa466b47106d8f661c21c98006367101&ssb=1"
+}
+[07/23/23, 08:16:46:698] info: Store: REMOVE_WEB_CONTENTS 
+{
+  "id": 2
+}
+[07/23/23, 08:16:46:702] info: Breadcrumb: electron: window.closed 
+{
+  "id": 2,
+  "url": "https://app.slack.com/api/auth.loginMagicBulk?magic_tokens=z-app-T04T40NHX-5622422576515-53d2b8653c75c0edb4dcba669fec4974d451eb76c586e5b93707f1aeffd5639c,z-app-T022J3LJZC2-5646238699776-5bfd244441b5ee53520962082d61616c30db0a281415a8c797db75606443d6e0,z-app-T08PSQ7BQ-5624976830020-787671279e5c255eb1784b0aae20fb35aa466b47106d8f661c21c98006367101&ssb=1"
+}
+[07/23/23, 08:16:46:781] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "https://app.slack.com/ssb/first?redir=%2Fssb%2Fclient#/"
+}
+[07/23/23, 08:16:46:782] info: Breadcrumb: electron: app.browser-window-focus 
+[07/23/23, 08:16:46:783] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:16:47:643] info: Breadcrumb: electron: renderer.dom-ready 
+{
+  "id": 1,
+  "url": "https://app.slack.com/client"
+}
+[07/23/23, 08:16:47:643] info: registerLifeCycleEvents: webContents:1 from 'loaded' to 'loaded' took 975 ms 
+[07/23/23, 08:16:47:643] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "loaded"
+}
+[07/23/23, 08:16:47:647] info: Breadcrumb: electron: window.ready-to-show 
+{
+  "id": 1,
+  "url": "https://app.slack.com/client"
+}
+[07/23/23, 08:16:48:572] info: Store: SET_NETWORK_STATUS online
+[07/23/23, 08:16:48:993] info: Store: UPDATE_SETTINGS 
+{
+  "userTheme": "light"
+}
+[07/23/23, 08:16:48:994] info: Store: UPDATE_SETTINGS 
+{
+  "systemThemeSyncEnabled": false
+}
+[07/23/23, 08:16:49:218] info: waitAuthCookieChange: waiting for auth change for session 
+{
+  "sessionId": "PROD_DEFAULT_SESSION"
+}
+[07/23/23, 08:16:49:398] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "https://app.slack.com/client"
+}
+[07/23/23, 08:16:49:398] info: Breadcrumb: electron: app.browser-window-blur 
+[07/23/23, 08:16:49:398] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:16:49:509] info: Store: SYNC (Empty)
+[07/23/23, 08:16:49:511] info: Store: SELECTION_CHANGED T04T40NHX
+[07/23/23, 08:16:51:525] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "https://app.slack.com/client/T04T40NHX"
+}
+[07/23/23, 08:16:51:526] info: Breadcrumb: electron: app.browser-window-focus 
+[07/23/23, 08:16:51:526] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:16:51:663] info: Store: REDUX_UPDATE_FROM_WEBAPP (T04T40NHX) Changed keys [theme,notificationPrefs,connectivityPrefs,featureFlags,unreads,locale,version,userId]
+[07/23/23, 08:16:51:671] info: Store: REDUX_UPDATE_FROM_WEBAPP (T04T40NHX) Changed keys [featureFlags,userId]
+[07/23/23, 08:16:51:672] info: Store: REDUX_UPDATE_FROM_WEBAPP (T04T40NHX) Changed keys [notificationPrefs,unreads]
+[07/23/23, 08:16:51:673] info: Store: REDUX_UPDATE_FROM_WEBAPP (T04T40NHX) Changed keys [connectivityPrefs]
+[07/23/23, 08:16:51:775] info: Store: SYNC Synced 1 workspaces with IDs [T04T40NHX]
+[07/23/23, 08:16:51:780] info: Store: SELECTION_CHANGED T04T40NHX
+[07/23/23, 08:16:52:771] info: Store: UPDATE_SETTINGS 
+{
+  "trafficLightPosition": {
+    "x": 14,
+    "y": 29
+  }
+}
+[07/23/23, 08:16:52:775] info: Store: EXTEND_MENU global: menucategory-file,menucategory-view,menucategory-jump-to
+[07/23/23, 08:16:52:779] info: Store: EXTEND_MENU T04T40NHX: menucategory-file,menucategory-view,menucategory-edit,menucategory-history,menucategory-help
+[07/23/23, 08:16:53:753] info: Store: REDUX_UPDATE_FROM_WEBAPP (T08PSQ7BQ) Changed keys [theme,notificationPrefs,connectivityPrefs,featureFlags,unreads,locale,version,userId]
+[07/23/23, 08:16:55:167] info: Store: REDUX_UPDATE_FROM_WEBAPP (T08PSQ7BQ) Changed keys [featureFlags,userId]
+[07/23/23, 08:16:55:168] info: Store: REDUX_UPDATE_FROM_WEBAPP (T08PSQ7BQ) Changed keys [notificationPrefs,unreads]
+[07/23/23, 08:16:55:169] info: Store: REDUX_UPDATE_FROM_WEBAPP (T08PSQ7BQ) Changed keys [connectivityPrefs]
+[07/23/23, 08:16:55:206] info: Store: SYNC Synced 2 workspaces with IDs [T04T40NHX,T08PSQ7BQ]
+[07/23/23, 08:16:55:212] info: Store: SELECTION_CHANGED T04T40NHX
+[07/23/23, 08:16:55:456] info: Store: REDUX_UPDATE_FROM_WEBAPP (T04T40NHX) Changed keys [unreads]
+[07/23/23, 08:16:55:637] info: Store: REDUX_UPDATE_FROM_WEBAPP (T022J3LJZC2) Changed keys [theme,notificationPrefs,connectivityPrefs,featureFlags,unreads,locale,version,userId]
+[07/23/23, 08:16:56:017] info: Store: REDUX_UPDATE_FROM_WEBAPP (T022J3LJZC2) Changed keys [featureFlags,userId]
+[07/23/23, 08:16:56:019] info: Store: REDUX_UPDATE_FROM_WEBAPP (T022J3LJZC2) Changed keys [notificationPrefs,unreads]
+[07/23/23, 08:16:56:020] info: Store: REDUX_UPDATE_FROM_WEBAPP (T022J3LJZC2) Changed keys [connectivityPrefs]
+[07/23/23, 08:16:56:338] info: Store: SYNC Synced 3 workspaces with IDs [T04T40NHX,T08PSQ7BQ,T022J3LJZC2]
+[07/23/23, 08:16:56:345] info: Store: SELECTION_CHANGED T04T40NHX
+[07/23/23, 08:16:56:563] info: Store: SELECTION_CHANGED T022J3LJZC2
+[07/23/23, 08:16:56:659] info: registerLifeCycleEvents: webContents:1 from 'loaded' to 'webapp-loaded' took 9016 ms 
+[07/23/23, 08:16:56:659] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "webapp-loaded"
+}
+[07/23/23, 08:16:56:664] info: Store: RECORD_PERFORMANCE_TIMING 
+{
+  "phase": 3,
+  "interval": 92785
+}
+[07/23/23, 08:16:56:665] info: registerLifeCycleEvents: webContents:1 from 'webapp-loaded' to 'webapp-loaded' took 6 ms 
+[07/23/23, 08:16:56:665] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "webapp-loaded"
+}
+[07/23/23, 08:16:56:665] info: registerLifeCycleEvents: webContents:1 from 'webapp-loaded' to 'webapp-loaded' took 0 ms 
+[07/23/23, 08:16:56:665] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "webapp-loaded"
+}
+[07/23/23, 08:16:56:946] info: Store: SELECTION_CHANGED T08PSQ7BQ
+[07/23/23, 08:16:57:394] info: Store: SELECTION_CHANGED T04T40NHX
+[07/23/23, 08:17:00:201] info: Store: REDUX_UPDATE_FROM_WEBAPP (T08PSQ7BQ) Changed keys [unreads]
+[07/23/23, 08:17:00:975] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "https://app.slack.com/client/T04T40NHX/C2FF0UVHU"
+}
+[07/23/23, 08:17:00:976] info: Breadcrumb: electron: app.browser-window-blur 
+[07/23/23, 08:17:00:976] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:17:00:991] info: Store: REDUX_UPDATE_FROM_WEBAPP (T04T40NHX) Changed keys [unreads]
+[07/23/23, 08:17:01:340] info: Store: persist/FLUSH 
+[07/23/23, 08:17:04:227] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "https://app.slack.com/client/T04T40NHX/C2FF0UVHU"
+}
+[07/23/23, 08:17:04:228] info: Breadcrumb: electron: app.browser-window-focus 
+[07/23/23, 08:17:04:228] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:17:04:396] info: Store: EXTEND_MENU T04T40NHX: menucategory-file,menucategory-view,menucategory-edit,menucategory-history,menucategory-help
+[07/23/23, 08:17:04:428] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "https://app.slack.com/client/T04T40NHX/C2FF0UVHU"
+}
+[07/23/23, 08:17:04:428] info: Breadcrumb: electron: app.browser-window-blur 
+[07/23/23, 08:17:04:428] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:17:05:026] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "https://app.slack.com/client/T04T40NHX/C2FF0UVHU"
+}
+[07/23/23, 08:17:05:027] info: Breadcrumb: electron: app.browser-window-focus 
+[07/23/23, 08:17:05:027] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:17:06:248] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "https://app.slack.com/client/T04T40NHX/C2FF0UVHU"
+}
+[07/23/23, 08:17:06:248] info: Breadcrumb: electron: app.browser-window-blur 
+[07/23/23, 08:17:06:248] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:17:32:955] info: Breadcrumb: electron: window.focus 
+{
+  "id": 1,
+  "url": "https://app.slack.com/client/T04T40NHX/C2FF0UVHU"
+}
+[07/23/23, 08:17:32:955] info: Breadcrumb: electron: app.browser-window-focus 
+[07/23/23, 08:17:32:956] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": true
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:17:33:351] info: Breadcrumb: electron: window.close 
+{
+  "id": 1,
+  "url": "https://app.slack.com/client/T04T40NHX/C2FF0UVHU"
+}
+[07/23/23, 08:17:33:352] info: Attempted to close the window, hiding due to run from tray 
+[07/23/23, 08:17:33:353] info: Breadcrumb: electron: window.hide 
+{
+  "id": 1,
+  "url": "https://app.slack.com/client/T04T40NHX/C2FF0UVHU"
+}
+[07/23/23, 08:17:33:353] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isVisible": false
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:17:33:355] info: Store: UPDATE_SETTINGS 
+{
+  "hasRunFromTray": true
+}
+[07/23/23, 08:17:33:357] info: Store: SHOW_TRAY_BALLOON 
+{
+  "title": "Why didn’t Slack quit?",
+  "content": "Slack’s set to stay running in the notification area. To change this, visit Preferences > Advanced."
+}
+[07/23/23, 08:17:33:358] info: Tray Handler: Showing a tray balloon with title: Why didn’t Slack quit? 
+[07/23/23, 08:17:33:371] info: Breadcrumb: electron: window.blur 
+{
+  "id": 1,
+  "url": "https://app.slack.com/client/T04T40NHX/C2FF0UVHU"
+}
+[07/23/23, 08:17:33:371] info: Breadcrumb: electron: app.browser-window-blur 
+[07/23/23, 08:17:33:372] info: Store: SET_WINDOW_FRAME 
+{
+  "id": 1,
+  "frame": {
+    "isFocused": false
+  },
+  "fromEvent": true
+}
+[07/23/23, 08:17:38:499] info: Store: QUIT_APP 
+[07/23/23, 08:17:38:501] info: Breadcrumb: electron: window.hide 
+{
+  "id": 1,
+  "url": "https://app.slack.com/client/T04T40NHX/C2FF0UVHU"
+}
+[07/23/23, 08:17:38:501] info: EpicHelpers: Flushing cookie store for session 
+{
+  "sessionId": "PROD_DEFAULT_SESSION"
+}
+[07/23/23, 08:17:38:502] info: Disposing YM… 
+[07/23/23, 08:17:38:502] info: Disposing s3… 
+[07/23/23, 08:17:38:503] info: Disposing Rv… 
+[07/23/23, 08:17:38:503] info: Store: DOWNLOADS_CLEANED_UP 
+[07/23/23, 08:17:38:509] info: flushLocalSettings: Flushing local-settings.json 
+{
+  "keys": [
+    "useHwAcceleration",
+    "rxLogging",
+    "useTsLogBackend"
+  ]
+}
+[07/23/23, 08:17:38:509] info: LocalSettings: updating values 
+{
+  "key": "useHwAcceleration",
+  "value": true
+}
+[07/23/23, 08:17:38:558] info: LocalSettings: updating values 
+{
+  "key": "useTsLogBackend",
+  "value": false
+}
+[07/23/23, 08:17:38:595] info: Store: persist/FLUSH 
+[07/23/23, 08:17:38:633] info: Closing main window 
+{
+  "id": 1
+}
+[07/23/23, 08:17:38:633] info: closeWindow: attempt to close window 
+{
+  "id": 1
+}
+[07/23/23, 08:17:38:633] info: Breadcrumb: electron: window.close 
+{
+  "id": 1,
+  "url": "https://app.slack.com/client/T04T40NHX/C2FF0UVHU"
+}
+[07/23/23, 08:17:38:723] info: registerLifeCycleEvents: webContents:1 from 'webapp-loaded' to 'page-closed' took 42058 ms 
+[07/23/23, 08:17:38:723] info: Store: UPSERT_WEB_CONTENTS 
+{
+  "id": 1,
+  "state": "page-closed"
+}
+[07/23/23, 08:17:38:724] info: Breadcrumb: electron: renderer.destroyed 
+{
+  "id": 1,
+  "url": "https://app.slack.com/client/T04T40NHX/C2FF0UVHU"
+}
+[07/23/23, 08:17:38:725] info: Store: REMOVE_WEB_CONTENTS 
+{
+  "id": 1
+}
+[07/23/23, 08:17:38:734] info: Breadcrumb: electron: window.closed 
+{
+  "id": 1,
+  "url": "https://app.slack.com/client/T04T40NHX/C2FF0UVHU"
+}
+[07/23/23, 08:17:38:735] info: Store: REMOVE_WINDOW 1
+[07/23/23, 08:17:38:737] info: 
++-------------------+--------------+
+| FLUSH_COOKIES     | 7.069056ms   |
+|-------------------+--------------+
+| FLUSH_STORE       | 35.9911ms    |
+|-------------------+--------------+
+| REMOVE_DICT       | 0.798915ms   |
+|-------------------+--------------+
+| FLUSH_TELEMETRY   | 0.553842ms   |
+|-------------------+--------------+
+| CLOSE_MAIN_WINDOW | 102.951014ms |
+|-------------------+--------------+
+| TOTAL             | 234.496447ms |
++-------------------+--------------+ 
+[07/23/23, 08:17:38:737] info: quitApplicationEpic: Finished, calling app.quit 
+[07/23/23, 08:17:38:738] info: Breadcrumb: electron: app.before-quit 
+[07/23/23, 08:17:38:738] info: Telling native-keymap to ignore all future events as we are quitting 
+[07/23/23, 08:17:38:739] info: Breadcrumb: electron: app.will-quit 
+[07/23/23, 08:17:39:107] info: Breadcrumb: electron: app.quit 

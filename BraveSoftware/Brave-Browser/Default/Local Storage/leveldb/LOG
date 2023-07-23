@@ -1,0 +1,24 @@
+2023/07/23-13:03:16.469 3 Reusing MANIFEST /home/atmegabuzz/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2023/07/23-13:03:16.469 3 Recovering log #67
+2023/07/23-13:03:16.470 3 Reusing old log /home/atmegabuzz/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000067.log 
+2023/07/23-13:03:26.098 4 Level-0 table #71: started
+2023/07/23-13:03:26.100 4 Level-0 table #71: 52578 bytes OK
+2023/07/23-13:03:26.103 4 Delete type=0 #67
+2023/07/23-13:05:25.810 4 Level-0 table #73: started
+2023/07/23-13:05:25.814 4 Level-0 table #73: 55747 bytes OK
+2023/07/23-13:05:25.818 4 Delete type=0 #70
+2023/07/23-13:15:41.393 4 Level-0 table #75: started
+2023/07/23-13:15:41.403 4 Level-0 table #75: 34383 bytes OK
+2023/07/23-13:15:41.405 4 Delete type=0 #72
+2023/07/23-13:15:41.406 4 Compacting 4@0 + 1@1 files
+2023/07/23-13:15:41.410 4 Generated table #76@0: 272 keys, 169957 bytes
+2023/07/23-13:15:41.410 4 Compacted 4@0 + 1@1 files => 169957 bytes
+2023/07/23-13:15:41.412 4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/07/23-13:15:41.412 4 Delete type=2 #65
+2023/07/23-13:15:41.412 4 Delete type=2 #68
+2023/07/23-13:15:41.412 4 Delete type=2 #73
+2023/07/23-13:15:41.412 4 Delete type=2 #71
+2023/07/23-13:15:41.412 4 Delete type=2 #75
+2023/07/23-13:32:15.833 4 Level-0 table #78: started
+2023/07/23-13:32:15.843 4 Level-0 table #78: 40800 bytes OK
+2023/07/23-13:32:15.845 4 Delete type=0 #74

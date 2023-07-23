@@ -1,0 +1,6 @@
+2023/07/23-08:14:29.287 1204 Reusing MANIFEST /home/atmegabuzz/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/07/23-08:14:29.288 1204 Recovering log #3
+2023/07/23-08:14:29.288 1204 Reusing old log /home/atmegabuzz/.config/discord/Local Storage/leveldb/000003.log 
+2023/07/23-08:16:30.323 1204 Level-0 table #5: started
+2023/07/23-08:16:30.344 1204 Level-0 table #5: 1777113 bytes OK
+2023/07/23-08:16:30.346 1204 Delete type=0 #3
